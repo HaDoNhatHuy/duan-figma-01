@@ -425,7 +425,7 @@ header .btn-sign-up {
   position: relative;
   left: -30px;
 }
-/* ===============================features================================ */
+/* ===============================features 1================================ */
 .features {
   margin-top: 135px;
   padding: 65px 0;
@@ -466,4 +466,18 @@ header .btn-sign-up {
 
   /* border-radius: 26px; */
   background: var(--color);
+}
+/* ===============================features 2================================ */
+.features-2 {
+  margin-top: 70px;
+}
+.features-2 .body {
+  flex-direction: row-reverse;
+}
+.features-2 .content {
+  width: 49%;
+}
+.features-2 .images img {
+  width: 470px;
+  height: 440px;
 }
